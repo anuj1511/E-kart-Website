@@ -108,7 +108,7 @@ function updateCartTotal() {
     var today = new Date();
     var time = today.getHours()+2 + ":" + today.getMinutes() + ":" + today.getSeconds();
 
-    document.getElementById('delievery-date').innerText = date + '   ' + time;
+        document.getElementById('delievery-date').innerText = 'Date: ' + date + '  ' + 'Time: ' + time;
 }
 
 function removeCartItem(event) {
