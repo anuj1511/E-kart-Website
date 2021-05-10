@@ -52,6 +52,8 @@ function clearCartClicked() {
     updateCartTotal();
 }
 function checkoutClicked() {
+    itemsInCart = 0;
+    k = 0;
     alert("Thank you for your purchase");
     var cartItems = document.getElementsByClassName('cart-items')[0];
     while (cartItems.hasChildNodes()) {
