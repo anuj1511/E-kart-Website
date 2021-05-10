@@ -42,6 +42,7 @@ function ready() {
 
 function clearCartClicked() {
     itemsInCart = 0;
+    k = 0;
     alert("Your Cart will be cleared!");
     var cartItems = document.getElementsByClassName('cart-items')[0];
     while (cartItems.hasChildNodes()) {
